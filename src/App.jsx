@@ -1,13 +1,15 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import Aromal from './pages/Gen'
+import Home from './pages/Home'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
     <BrowserRouter>
     <div>
       <Routes>
-        <Route path="/" element={<Aromal />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </div>
     </BrowserRouter>
