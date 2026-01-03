@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router'
-import Aromal from './pages/Gen'
 import Home from './pages/Home'
 import Navbar from './components/Navbar'
 
